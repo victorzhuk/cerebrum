@@ -1,0 +1,9 @@
+[run]
+branch = true
+source = cerebrum
+omit =
+    test/*
+
+[report]
+# Ignore missing source files, i.e. fake template-generated "files"
+ignore_errors = true
